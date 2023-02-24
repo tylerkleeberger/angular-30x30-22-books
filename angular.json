@@ -97,8 +97,17 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "591949e4-8499-4627-bd37-56924a2d4488",
+    "schematicCollections": [
+      "@ngrx/schematics"
+    ]
   }
 }
